@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Alex/Dropbox/Skola/År%203/P3/ID2208%20Programming%20Web%20Services/Homework/HW2/Web-Services-hw2-Bank/src/java/bank/bankWSDL.wsdl" uri="src/conf/xml-resources/web-services/BankWS/wsdl/bankWSDL.wsdl"/>
+</catalog>
