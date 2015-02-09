@@ -13,6 +13,7 @@ public class Account {
     
     private String personName;
     private String creditCard;
+    private double amount;
 
     public String getPersonName() {
         return personName;
