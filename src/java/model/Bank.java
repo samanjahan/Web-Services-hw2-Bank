@@ -35,7 +35,7 @@ public class Bank {
         accountList.add(ac3);       
     }
     
-    public boolean pay(String creditCard, String personName){
+    public boolean pay(String creditCard, String personName,double amount){
         for(int  i = 0; i< accountList.size(); ++i){
             if(accountList.get(i).getPersonName().equals(personName) && accountList.get(i).getCreditCard().equals(creditCard)){
                 return true;
