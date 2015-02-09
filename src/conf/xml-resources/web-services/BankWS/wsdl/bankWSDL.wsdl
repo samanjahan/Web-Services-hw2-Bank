@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="bankWSDL" targetNamespace="http://bank/"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://j2ee.netbeans.org/wsdl/Web-Services-hw2-Bank/java/bankWSDL" xmlns:ns="http://bank/">
+    <types/>
+    <message name="payRequest">
+        <part name="personName" type="xsd:string"/>
+        <part name="creditCard" type="xsd:string"/>
+        <part name="amount" type="xsd:double"/>
+    </message>
+    <message name="payResponse">
+        <part name="return" type="xsd:boolean"/>
+    </message>
+    <portType name="BankServices">
+        <operation name="pay">
+            <input name="input1" message="ns:payRequest"/>
+            <output name="output1" message="ns:payResponse"/>
+        </operation>
+    </portType>
+</definitions>
